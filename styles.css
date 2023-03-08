@@ -42,8 +42,9 @@ a {
     gap: 16px;
   }
 
-  hero-logo,
-  hero-p {
+  .hero-logo,
+  .hero-p,
+  .header-logo {
     color: #E5E7EB;
   }
   
@@ -60,6 +61,7 @@ a {
   .middle {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     
   }
 
@@ -69,16 +71,17 @@ a {
     color: #1f2937;
   }
 
-  .middle-title {
+  .main-gallery {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    gap: 8px;
   }
 
   .gallery {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
 .gallery-img {
@@ -86,4 +89,5 @@ a {
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+    border-radius: 25px;
 }
