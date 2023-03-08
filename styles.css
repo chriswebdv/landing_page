@@ -17,9 +17,11 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: auto
-    row-gap:auto    
+    justify-content: center;
+    height: auto;
+    row-gap:auto;
+    padding: 50px;
+    margin: 0;   
 }
 
 .header, .hero{
@@ -81,7 +83,6 @@ a {
   .gallery {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
   }
 
 .gallery-img {
@@ -90,4 +91,22 @@ a {
     padding: 5px;
     width: 150px;
     border-radius: 25px;
+}
+
+.quote {
+background-color: #E5E7EB;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 100px;
+margin: 25px;
+
+}
+
+span.quote-p {
+  color: #1f2937;
+  flex-wrap: wrap;
+  font-size: 36px;
+  font-style: light italic;
 }
