@@ -110,3 +110,31 @@ span.quote-p {
   font-size: 36px;
   font-style: light italic;
 }
+
+.bluey {
+  background-color: #3882f6;
+  border-radius: 15px;
+  height: 125px;
+  margin: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bluey-text {
+  color: #E5E7EB;
+}
+
+button.bluey-button {
+  border: 4px #E5E7EB;  
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
